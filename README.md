@@ -1,12 +1,12 @@
 # FlaskAPI
 ---> To Get a record
-Accepted Verb: GET
-URL: http://127.0.0.1:5000/getrecord  
+-> Accepted Verb: GET
+-> URL: http://127.0.0.1:5000/getrecord  
 
 ---> To Insert a record
-Accepted Verb: POST
-URL: http://127.0.0.1:5000/insertrecord
-Sample body to be passed:
+-> Accepted Verb: POST
+-> URL: http://127.0.0.1:5000/insertrecord 
+-> Sample body to be passed:
 {
     "studentname":"Raj",
     "studentcity":"Vapi",
@@ -15,9 +15,9 @@ Sample body to be passed:
 }
 
 ---> To Update a record
-Accepted Verb:PUT 
-URL: http://127.0.0.1:5000/updaterecord
-Sample body to be passed:
+-> Accepted Verb:PUT 
+-> URL: http://127.0.0.1:5000/updaterecord
+-> Sample body to be passed:
 {
     "student_id":1,
     "studentname":"Rajesh",
@@ -26,9 +26,9 @@ Sample body to be passed:
 }
 
 ---> To Delete a record
-Accepted Verb: POST
-URL: http://127.0.0.1:5000/deleterecord
-Sample body to be passed:
+-> Accepted Verb: POST
+-> URL: http://127.0.0.1:5000/deleterecord
+-> Sample body to be passed:
 {
     "student_id":1 
 }

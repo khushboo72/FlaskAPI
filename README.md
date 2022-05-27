@@ -1,4 +1,6 @@
 # FlaskAPI
+---> Initial step: Enter the user and password in dbhelper file 
+
 ---> To Get a record
 -> Accepted Verb: GET
 -> URL: http://127.0.0.1:5000/getrecord  

@@ -8,7 +8,7 @@ def server_connection():
         __mydb = mysql.connector.connect(
             host='localhost',
             user='root', #enter your username here 
-            password='sql_123Aqt' #enter your password here 
+            password=' ' #enter your password here 
         )
     return __mydb
 
@@ -31,7 +31,7 @@ def get_sql_connection():
         __mydb = mysql.connector.connect(
             host='localhost',
             user='root', #enter your username here 
-            password='sql_123Aqt', #enter your password here 
+            password=' ', #enter your password here 
             database='studentrecord'
             )
     return __mydb
